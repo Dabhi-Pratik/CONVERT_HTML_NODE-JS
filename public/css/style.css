@@ -1,0 +1,151 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 40px;
+}
+
+/* =========================
+   TITLE
+========================= */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+/* =========================
+   ADD BUTTON
+========================= */
+.add-btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto 30px;
+    padding: 12px;
+    background: #6366f1;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+.add-btn:hover {
+    background: #16a34a;
+}
+
+/* =========================
+   TASK LIST
+========================= */
+ul {
+    list-style: none;
+    max-width: 700px;
+    margin: auto;
+}
+
+li {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #334155;
+}
+
+li strong {
+    font-size: 20px;
+    color: #f8fafc;
+}
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+li a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+li a[href^="/edit"] {
+    background: #3b82f6;
+}
+
+li a[href^="/delete"] {
+    background: #ef4444;
+}
+
+/* =========================
+   FORM
+========================= */
+form {
+    background: #1e293b;
+    max-width: 420px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    margin-bottom: 15px;
+    background: #0f172a;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+/* =========================
+   BUTTON
+========================= */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4f46e5;
+}
+
+/* =========================
+   BACK LINK
+========================= */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #60a5fa;
+}
